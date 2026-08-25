@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">Zentrix MD</title>
+  <desc id="desc">Animated Zentrix MD terminal-style title card</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#090d1a"/>
+      <stop offset="1" stop-color="#17112b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#6ee7ff"/>
+      <stop offset="0.52" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typingClip"><rect x="78" y="78" width="565" height="45"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="716" height="176" rx="24" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <circle cx="34" cy="32" r="7" fill="#fb7185"/>
+  <circle cx="57" cy="32" r="7" fill="#facc15"/>
+  <circle cx="80" cy="32" r="7" fill="#4ade80"/>
+  <text x="104" y="38" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">zentrix@control-center</text>
+  <path d="M38 62H682" stroke="#243047"/>
+  <text x="40" y="108" fill="#6ee7ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28">&gt;</text>
+  <g clip-path="url(#typingClip)">
+    <text x="78" y="108" fill="url(#accent)" filter="url(#glow)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="32" font-weight="700">Zentrix MD</text>
+    <rect x="284" y="79" width="4" height="36" fill="#f0abfc">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="78;284;284" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="40" y="145" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">secure runtime • single session • ready</text>
+  <circle cx="655" cy="143" r="6" fill="#4ade80"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.6s" repeatCount="indefinite"/></circle>
+</svg>
