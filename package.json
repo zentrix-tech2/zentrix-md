@@ -1,6 +1,6 @@
 {
   "name": "zentrix-md-v1-01",
-  "version": "1.0.1",
+  "version": "3.1.18",
   "description": "Zentrix MD v1.01 — Enterprise WhatsApp Bot",
   "displayName": "Zentrix MD v1.01",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@napi-rs/canvas": "^0.1.53",
-    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "@vansnowi/baileys": "1.5.1",
     "adm-zip": "^0.5.10",
     "async-mutex": "^0.5.0",
     "axios": "^1.6.0",
