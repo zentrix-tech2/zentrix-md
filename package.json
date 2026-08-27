@@ -1,6 +1,6 @@
 {
   "name": "zentrix-md-v1-01",
-  "version": "3.1.18",
+  "version": "3.1.19",
   "description": "Zentrix MD v1.01 — Enterprise WhatsApp Bot",
   "displayName": "Zentrix MD v1.01",
   "main": "index.js",
